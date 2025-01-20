@@ -9,9 +9,43 @@ header h1 {
     font-size: 1.8em; 
 }
 
-header{
+header {
      text-align: center;
     background-color: navy;
     color: gold; 
     padding: 1em 0;
+}
+
+main {
+	padding: 1em;
+    margin: 0 auto;
+    max-width: 600px; 
+    border-radius: 8px; 
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    display: inline-block;
+    background-color: dodgerblue;
+    color: white; 
+    border: none;
+    padding: 0.7em 1.2em;
+    border-radius: 5px;
 }
